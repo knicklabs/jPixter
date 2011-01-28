@@ -1,7 +1,16 @@
+body {
+	background:  #121212;
+	text-align:  center;
+}
+
 #deck {
 	position: relative;
 	width: 700px;
 	height: 400px;
+	margin: 0 auto;
+	margin-top: 90px;
+	text-align: left;
+	border: 20px solid #000;
 }
 #photoDeck {
 	margin: 0; padding: 0; border: none;
