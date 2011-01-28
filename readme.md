@@ -5,6 +5,8 @@ captions into a slideshow. It includes autoscrolling, pause/resume control, and
 next and previous navigation. The markup is simple and easy to style with a number
 of customization options out of the box.
 
+jPixter is released under the MIT license. Do what you want with it. 
+
 *Instructions*
 ----------------------------------------------------------------------------------
 Better instructions coming soon. But here's enough to get you started.
