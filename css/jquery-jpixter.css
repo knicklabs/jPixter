@@ -1,0 +1,29 @@
+#deck {
+	position: relative;
+	width: 700px;
+	height: 400px;
+}
+#photoDeck {
+	margin: 0; padding: 0; border: none;
+	background: #000;
+	position:  relative;
+	width: 700px;
+	height: 400px;
+	list-style: none;
+}
+#photoDeck li {
+	position: absolute;
+	margin: 0; padding: 0; border: none;
+	top: 0;
+	left: 0;
+	width: 700px;
+	height: 400px;
+	list-style: none;
+	display: none;
+}
+#photoDeck li.active {
+	opacity: 1.0;
+}
+#photoDeck li div {
+	display: none;
+}

@@ -1,0 +1,76 @@
+<!doctype HTML>
+<html>
+	<head>
+		<script src="js/jquery-1.4.4.min.js"></script>
+		<script src="js/jquery-jpixter.js"></script>
+		<link href="css/jquery-jpixter.css" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div id="deck">
+			<ul id="photoDeck">
+				<li>
+					<img src="images/001.jpg" alt="Image one" />
+					<div>
+						<h4>Photo One</h4>
+						<p>
+							Nullam id dolor id nibh ultricies vehicula ut id elit. 
+							Etiam porta sem malesuada magna mollis euismod.
+						</p>	
+					</div>
+				</li>
+				<li>
+					<img src="images/002.jpg" alt="Image two" />
+					<div>
+						<h4>Photo Two</h4>
+						<p>
+							Nullam id dolor id nibh ultricies vehicula ut id elit. 
+							Etiam porta sem malesuada magna mollis euismod.
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/003.jpg" alt="Image three" />
+					<div>
+						<h4>Photo Three</h4>
+						<p>
+							Nullam id dolor id nibh ultricies vehicula ut id elit. 
+							Etiam porta sem malesuada magna mollis euismod.
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/004.jpg" alt="Image four" />
+					<div>
+						<h4>Photo Four</h4>
+						<p>
+							Nullam id dolor id nibh ultricies vehicula ut id elit. 
+							Etiam porta sem malesuada magna mollis euismod.
+						</p>
+					</div>
+				</li>
+				<li>
+					<img src="images/005.jpg" alt="Image five" />
+					<div>
+						<h4>Photo Five</h4>
+						<p>
+							Nullam id dolor id nibh ultricies vehicula ut id elit. 
+							Etiam porta sem malesuada magna mollis euismod.
+						</p>
+					</div>
+				</li>
+			</ul>
+			<div id="controls">
+				<a href="#" class="previous">Previous</a>
+				<a href="#" class="pause">Pause</a>
+				<a href="#" class="next">Next</a>
+			</div>
+		</div>
+	
+	<script>
+		$(document).ready(function() {
+			$("slide_deck").jPixter({});
+		});
+	</script>
+	</body>
+</html>
